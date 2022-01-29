@@ -532,6 +532,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCommand.Location = new System.Drawing.Point(14, 504);
             this.txtCommand.Margin = new System.Windows.Forms.Padding(5);
+            this.txtCommand.MaxLength = 24;
             this.txtCommand.Name = "txtCommand";
             this.txtCommand.Size = new System.Drawing.Size(371, 35);
             this.txtCommand.TabIndex = 1;
